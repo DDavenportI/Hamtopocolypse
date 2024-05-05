@@ -1,0 +1,1474 @@
+fileFormatVersion: 2
+guid: dbccc60848457b44cb0823d82310f926
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PinkHam_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 243
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8050de46b15916345b5158e4241f2b01
+      internalID: 1450762296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 243
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177d8aff1a5e77b4fb5ac079152aaef9
+      internalID: 196505574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 243
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974ee6f18baf82d4eac6b35db9780a3b
+      internalID: 1537901680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 221
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d55dae290512648b315bf70a3be82a
+      internalID: -2085541303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 221
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42383b51b481add46859aa62b068f571
+      internalID: 644021146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 221
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197e123a0f709ef4db9e620fc99c48a8
+      internalID: -641211784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b690f5a1656e69241877c81d16dabf74
+      internalID: -711575179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 199
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25672bc27c08e4a43b3315cd0460f9a9
+      internalID: 769760946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 177
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d40548582576146bdc0825af904241
+      internalID: 1881623328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 199
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f14fa414da0734cb5eb4d7e2e668f9
+      internalID: -420198472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 177
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d37ded21ec37e648825fed09469b18f
+      internalID: -1502505909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 177
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abba26ec2e847444bff66fd8a80a859
+      internalID: 292549755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_21
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 111
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232f1c1f078524c4e83cd97310dd3f01
+      internalID: 216498957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 155
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52103030685ff9146b7e309f342ca49c
+      internalID: -1410502934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_24
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 155
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bc2f64ec4eaa444bf8c3b90548df79
+      internalID: -1882979719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_26
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 133
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b840be70f88fa9b49a7e8ae54501be22
+      internalID: 77358657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 155
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b3aa98a88540b478552cc86fe2029b
+      internalID: 1749711475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_28
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 133
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2d12f62e76db249a2a5b040c654ece
+      internalID: 1615459834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbecfa88e8f17d148ba1ee6b35412f10
+      internalID: 1255413246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 111
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865b3fe6bef27cf4dbbbda71a46a3010
+      internalID: 80278904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_33
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 111
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a771abaaeefdae840a9d42212a9fbcb7
+      internalID: -299890754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb18ffdeaf2019498a790f599e7b33f
+      internalID: 1998725722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_38
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88eeff3985917134f80b25c2f97c852d
+      internalID: -1668457876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_40
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 89
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0419e0200eb35cd449e4904bde915f1f
+      internalID: -1458166327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_41
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4884d6009ae1a5d42b02d2f2bc41ec12
+      internalID: 1959943812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_43
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a8582287f8e354b985b8004d0a1887
+      internalID: 761867445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_44
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dcf555f0541aa4eb04030db063acea
+      internalID: 1085766723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_45
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce55673bc4f319e4e99949fb9a897f4f
+      internalID: -85375425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f5213253cd495428ea43efd5e77f26
+      internalID: 1943621609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_47
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 111
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34932e84436596f4dbccf06884e3407f
+      internalID: -1901127350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ecc9891d50c6f46ba840ab32438191
+      internalID: -775727481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_53
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043953a4d6d892644b900f7713fbb17f
+      internalID: -164685336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_54
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53d8f41132e71d46a470266d73c532c
+      internalID: -2128648018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_56
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2119c21f4666f9b489f018eb7230b345
+      internalID: 1943180785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_57
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648e3deecc811e34b8540390311bc080
+      internalID: -1456091634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_58
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e855ca6c8ebb149a136f0531c540e6
+      internalID: -2126739926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_59
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f7bbc7dbeb057429b100db81999361
+      internalID: -1195552291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_61
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33dbb91db8cf1247ad0a9ff7db70c6d
+      internalID: -1715081088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_62
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa18f49f3660d364aa1f866615495fe2
+      internalID: -484872598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_64
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee1bea8841ec5d468fb804bde044cb8
+      internalID: -1978680034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_65
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b73578ed433a440acfc341ef50f75c
+      internalID: 1361422059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_66
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e2f0c7d638c1b40a19ba2e13a209ee
+      internalID: -1925116389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_67
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71691a9cf180eab4fbdfaeda7e540a05
+      internalID: -1725585224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_68
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ea84f0b64a22849a45ea7c760602e8
+      internalID: 1002480956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_69
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a4588dfed5c4e4a84e283880eef4e0
+      internalID: 2034771229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_70
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfd3b96dad8d6845904be44c8e61f9e
+      internalID: 1460881876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_72
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a635fcf636153f498da427b83618c96
+      internalID: 56475214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_74
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7f5b5ed5a8dd94bab3ad0a04fc1a5f
+      internalID: -1815333620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_75
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d187b64b4e96647970943f316e4d33
+      internalID: 1438199513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_76
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e8f63baf149b74ab039098f236240d
+      internalID: 1428584774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_77
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9592a45b773895d40a57f448fb7e1044
+      internalID: -1976688931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_78
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be05096b9280a854fabb7b3c8bf20c3f
+      internalID: -280719979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_79
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244b5e59af190554783a78d7597a133a
+      internalID: 1536442734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_80
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e3254ed59192845abbe07e196b7b44
+      internalID: -1193870831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_81
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5ec7a227d75b545a367687d5027e8e
+      internalID: -719190645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_82
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6ff007baa18754dbf0480eac528483
+      internalID: 1580534554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_83
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c70baacc792834a922e67df853538c
+      internalID: 1907598668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_84
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86814b7b85789784194c5f34749d8ab4
+      internalID: 455372682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_85
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228605d54245b794cb00b9186031eab1
+      internalID: -993629580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkHam_86
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8319dcb7f1c99014fa64884159d4dbb1
+      internalID: -200662991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PinkHam_0: 1450762296
+      PinkHam_1: 196505574
+      PinkHam_10: 1537901680
+      PinkHam_11: -2085541303
+      PinkHam_12: 644021146
+      PinkHam_13: 21222324
+      PinkHam_14: 1549350669
+      PinkHam_15: -641211784
+      PinkHam_16: -711575179
+      PinkHam_17: 769760946
+      PinkHam_18: 1742825112
+      PinkHam_19: 1881623328
+      PinkHam_2: 1349574334
+      PinkHam_20: -420198472
+      PinkHam_21: -1502505909
+      PinkHam_22: 622540669
+      PinkHam_23: 292549755
+      PinkHam_24: 732651483
+      PinkHam_25: 1064113522
+      PinkHam_26: 460506554
+      PinkHam_27: -1344810763
+      PinkHam_28: 216498957
+      PinkHam_29: -1410502934
+      PinkHam_3: 1660463439
+      PinkHam_30: -1882979719
+      PinkHam_31: 921867159
+      PinkHam_32: 77358657
+      PinkHam_33: 1749711475
+      PinkHam_34: 1615459834
+      PinkHam_35: -1258495067
+      PinkHam_36: 1714392214
+      PinkHam_37: 1255413246
+      PinkHam_38: 80278904
+      PinkHam_39: -299890754
+      PinkHam_4: -822595925
+      PinkHam_40: -1152281052
+      PinkHam_41: -270371671
+      PinkHam_42: 1998725722
+      PinkHam_43: -1668457876
+      PinkHam_44: -1078323125
+      PinkHam_45: -1458166327
+      PinkHam_46: 1959943812
+      PinkHam_47: -1929757102
+      PinkHam_48: 761867445
+      PinkHam_49: 1085766723
+      PinkHam_5: -85375425
+      PinkHam_50: 1943621609
+      PinkHam_51: -1901127350
+      PinkHam_52: 2042644730
+      PinkHam_53: 289946110
+      PinkHam_54: -1256484353
+      PinkHam_55: -1253516976
+      PinkHam_56: -775727481
+      PinkHam_57: -164685336
+      PinkHam_58: -2128648018
+      PinkHam_59: 1186457605
+      PinkHam_6: 1943180785
+      PinkHam_60: -1456091634
+      PinkHam_61: -2126739926
+      PinkHam_62: -1195552291
+      PinkHam_63: 1020489772
+      PinkHam_64: -1715081088
+      PinkHam_65: -484872598
+      PinkHam_66: -1506051978
+      PinkHam_67: -1978680034
+      PinkHam_68: 1361422059
+      PinkHam_69: -1925116389
+      PinkHam_7: -1725585224
+      PinkHam_70: 1002480956
+      PinkHam_71: 2034771229
+      PinkHam_72: 1460881876
+      PinkHam_73: 226325022
+      PinkHam_74: 56475214
+      PinkHam_75: -1995213729
+      PinkHam_76: -1815333620
+      PinkHam_77: 1438199513
+      PinkHam_78: 1428584774
+      PinkHam_79: -1976688931
+      PinkHam_8: -280719979
+      PinkHam_80: 1536442734
+      PinkHam_81: -1193870831
+      PinkHam_82: -719190645
+      PinkHam_83: 1580534554
+      PinkHam_84: 1907598668
+      PinkHam_85: 455372682
+      PinkHam_86: -993629580
+      PinkHam_9: -200662991
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
