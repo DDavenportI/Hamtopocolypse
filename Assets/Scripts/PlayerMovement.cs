@@ -47,7 +47,6 @@ public class PlayerMovement : MonoBehaviour
         float horizontal = Input.GetAxis(horizontalAxis);
         bool isFiring = Input.GetButton(fireButton);
 
-
         // Accelerate or decelerate based on the input
         if (vertical != 0)
         {
@@ -109,6 +108,7 @@ public class PlayerMovement : MonoBehaviour
             Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
             if (bulletRb != null)
             {
+                bulletRb.MoveRotation(rb2d.rotation);
                 bulletRb.velocity = transform.up * bulletSpeed;
             }
         }
@@ -138,15 +138,19 @@ public class PlayerMovement : MonoBehaviour
             // Reflect the velocity based on the collision normal, applying energy loss
             Vector2 reflectedVelocity = Vector2.Reflect(incomingVelocity, normal);
 
+            // Rotate the tank to face the direction of the new velocity
+            float angle = Mathf.Atan2(reflectedVelocity.y, reflectedVelocity.x) * Mathf.Rad2Deg;
+            rb2d.MoveRotation(90); // Offset by -90 degrees since the tank's forward is the "up" direction
+            
             currentSpeed = 0;
+
             StartCoroutine(WaitForABit());
 
             rb2d.velocity = reflectedVelocity; // Set the new velocity
 
             // Rotate the tank to face the direction of the new velocity
-            float angle = Mathf.Atan2(reflectedVelocity.y, reflectedVelocity.x) * Mathf.Rad2Deg;
-            rb2d.MoveRotation(angle - 90 * rotationSpeed * Time.deltaTime); // Offset by -90 degrees since the tank's forward is the "up" direction
-            Debug.Log(angle - 90);
+            //float angle = Mathf.Atan2(reflectedVelocity.y, reflectedVelocity.x) * Mathf.Rad2Deg;
+            //rb2d.MoveRotation(angle - 90); // Offset by -90 degrees since the tank's forward is the "up" direction
         }
     }
 
