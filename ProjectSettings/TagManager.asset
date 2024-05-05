@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Barrier
   - Bullet
+  - PoopMine
   layers:
   - Default
   - TransparentFX
