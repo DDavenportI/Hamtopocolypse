@@ -109,6 +109,7 @@ public class PlayerMovement : MonoBehaviour
             if (bulletRb != null)
             {
                 bulletRb.MoveRotation(rb2d.rotation);
+                Debug.Log(bulletRb.rotation);
                 bulletRb.velocity = transform.up * bulletSpeed;
             }
         }
