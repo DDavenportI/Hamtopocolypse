@@ -1,0 +1,1473 @@
+fileFormatVersion: 2
+guid: cf606f94f51afb5459bd2eca13e51c11
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueHamv2_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 243
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318927dba49befb44a42ca2ee51ef867
+      internalID: 1653843399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 243
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa77c77b0117dd4899ab2374a74d13b
+      internalID: -1486609661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 243
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a5bd3c35e520544bd245d0822b2bdf
+      internalID: -472542877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 221
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282e935358aa0064eb48456768ecf48f
+      internalID: -1262987313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 221
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c1104d6759e5b46a61c035d91e2b2e
+      internalID: -635761326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_6
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 221
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c8f0989f4391d41887cb3595343e5e
+      internalID: 73187300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39842294662b7a459dec2e652e55871
+      internalID: 1159437945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 199
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0912da6bb53fa645864fd93bd248e58
+      internalID: 1512128699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 177
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc61afdfcd0c868499e0954eabd5bddb
+      internalID: -916547201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 199
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc8801e34c42ed4989c2379012513c6
+      internalID: -963809714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 177
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe3090220241d544ab46ae863632243
+      internalID: -1976820507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 177
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9784bb09df457418dfb05ab8af9fb2
+      internalID: -1204608330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8fd9e6de2bdfd4485a6ba4c490c305
+      internalID: 1701754447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 155
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b7d90a69d435442b3dbc06aeb1a1a3
+      internalID: -1164985683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 155
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6c7a3319af97046b1a691fa996a1ec
+      internalID: -1749205370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 133
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef4e40ec73274b45b5076a2e5b80629
+      internalID: -477093687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_23
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 155
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa617fbc0c58194dac25930b34579fc
+      internalID: 484501465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_24
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 133
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc95bfa69aa3174e9c9a1758d684630
+      internalID: -897075371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_27
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 111
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6bb462c20e7af47a2d9de9aab47fea
+      internalID: -22762965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_28
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 111
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24833e3613bc0e44893963195310bf2b
+      internalID: 938965182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_29
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 111
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89e50d282c7cfb44826bfd55124dacc
+      internalID: -47567238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_34
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6828af583751e50459bf80e9a15b52b8
+      internalID: -267883002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_35
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57807d880c4b3634e82dc37a2496ddec
+      internalID: -665714539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_37
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3e941b3e55ece438d45fa14b4a4fa4
+      internalID: 1828636880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_39
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1c95bf7c31fb64b855b39149de8c84
+      internalID: -293895012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_41
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0927b76fa206c74c8c6eb04a93d1315
+      internalID: 458288539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_42
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a35a22544fccf54283d0e830f3de79f
+      internalID: -292368243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770c4d211f1068244a8f4e6b78e61dd5
+      internalID: 1822348313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 111
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f3271b33f803d4983efa954c0e0148
+      internalID: 363245065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e733fe2290dd94c488c25530badc0799
+      internalID: -1204947580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9b45d2c31b09740b649e88986ba046
+      internalID: -1887177563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_51
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ae353740598fe44b181ba516c10be7
+      internalID: -1725512635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_52
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53bac2d647e88f41978782a0adebc91
+      internalID: -145370278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_54
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5890c1cfe121d49bd01d3204956406
+      internalID: 25645811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_55
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4dfa540e8f0f647b61099aa95e31a6
+      internalID: 1623001675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_56
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c84d4119a8f5b47b707cf1cf03a93e
+      internalID: 1983943155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_57
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd0e369611408543b72edf956903d57
+      internalID: -1951606323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_59
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 67
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f031c747049a245b2edd775ca6a461
+      internalID: 272175096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0b5fbd8d1ec0b47abace3feb441575
+      internalID: 640445590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_63
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395e76a3c8272e54d9fb7997ef2a8c18
+      internalID: -694716092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_64
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf18eef131bdc4f4980e9145d872b3ac
+      internalID: 564223775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_65
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9e80b68e91d4b419324113f073e737
+      internalID: 647244877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_66
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61069d4ca5b07ac4b8cc5f07d13b3e96
+      internalID: -1049737618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_67
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 45
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59452e5db7e444a45b969a1c4dd9e389
+      internalID: -674622273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c8b2ab67d351f43bb5354f52b711a5
+      internalID: 189849783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_69
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd86abdeb7002ed429657fa46240e848
+      internalID: 849831796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_71
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012969b26574eea4cbfec5eb2d6ecb12
+      internalID: 1947206936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_73
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d31f54cf32376418bfc27755274b08
+      internalID: 1692338356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_74
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b0f5766f8555440a620c11843db658
+      internalID: -1344939498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_75
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582e9d7171c4ef540bdfc304a0fd0a00
+      internalID: 81672732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_76
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435188bc67167a440bfe20a3d6285971
+      internalID: -438515649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_77
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 23
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7db5c4aae21664488adf64941eb0880
+      internalID: 1299372964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_78
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4b45643692df94f9ffcd08a8085b7a
+      internalID: 1078769333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_79
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbd4b12de01c6c48a5cd6a2993d54fa
+      internalID: -1658401336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_80
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522f4e05d5f48074d91b7fd03d77580c
+      internalID: -1282130162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_81
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51ee12694a072b46917b030a527e39a
+      internalID: 843176050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_82
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1ae891bcd808c45910e213dcb7f0f5
+      internalID: 1883198794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_83
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df0b3d62bbd2aa49ad1b4884d337e4b
+      internalID: -1293609409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_84
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd1d2ad3fd99f24fb9e9a0d50ddfeb8
+      internalID: -1723297415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2_85
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8498322fe90373e4aa16bfb999fa8277
+      internalID: -1942637923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BlueHamv2_0: 1653843399
+      BlueHamv2_1: -1486609661
+      BlueHamv2_10: -916547201
+      BlueHamv2_11: 774580457
+      BlueHamv2_12: -963809714
+      BlueHamv2_13: -1976820507
+      BlueHamv2_14: 1782144503
+      BlueHamv2_15: -1204608330
+      BlueHamv2_16: -463872308
+      BlueHamv2_17: 1701754447
+      BlueHamv2_18: -1164985683
+      BlueHamv2_19: 213173993
+      BlueHamv2_2: -472542877
+      BlueHamv2_20: -1749205370
+      BlueHamv2_21: 798936833
+      BlueHamv2_22: -477093687
+      BlueHamv2_23: 484501465
+      BlueHamv2_24: -897075371
+      BlueHamv2_25: -703641193
+      BlueHamv2_26: -93472956
+      BlueHamv2_27: -22762965
+      BlueHamv2_28: 938965182
+      BlueHamv2_29: -47567238
+      BlueHamv2_3: -1262987313
+      BlueHamv2_30: 1475103683
+      BlueHamv2_31: -139064640
+      BlueHamv2_32: -1092421141
+      BlueHamv2_33: 540647380
+      BlueHamv2_34: -267883002
+      BlueHamv2_35: -665714539
+      BlueHamv2_36: 1232176021
+      BlueHamv2_37: 1828636880
+      BlueHamv2_38: -431206306
+      BlueHamv2_39: -293895012
+      BlueHamv2_4: -635761326
+      BlueHamv2_40: -1971730770
+      BlueHamv2_41: 458288539
+      BlueHamv2_42: -292368243
+      BlueHamv2_43: 1822348313
+      BlueHamv2_44: 363245065
+      BlueHamv2_45: -1204947580
+      BlueHamv2_46: -1771071146
+      BlueHamv2_47: 2138747468
+      BlueHamv2_48: 1167517665
+      BlueHamv2_49: -1068440691
+      BlueHamv2_5: 25707671
+      BlueHamv2_50: -1887177563
+      BlueHamv2_51: -1725512635
+      BlueHamv2_52: -145370278
+      BlueHamv2_53: -413706162
+      BlueHamv2_54: 25645811
+      BlueHamv2_55: 1623001675
+      BlueHamv2_56: 1983943155
+      BlueHamv2_57: -1951606323
+      BlueHamv2_58: -1086945996
+      BlueHamv2_59: 272175096
+      BlueHamv2_6: 73187300
+      BlueHamv2_60: 640445590
+      BlueHamv2_61: -934409419
+      BlueHamv2_62: -936856731
+      BlueHamv2_63: -694716092
+      BlueHamv2_64: 564223775
+      BlueHamv2_65: 647244877
+      BlueHamv2_66: -1049737618
+      BlueHamv2_67: -674622273
+      BlueHamv2_68: 189849783
+      BlueHamv2_69: 849831796
+      BlueHamv2_7: 1159437945
+      BlueHamv2_70: 1867036939
+      BlueHamv2_71: 1947206936
+      BlueHamv2_72: 385653487
+      BlueHamv2_73: 1692338356
+      BlueHamv2_74: -1344939498
+      BlueHamv2_75: 81672732
+      BlueHamv2_76: -438515649
+      BlueHamv2_77: 1299372964
+      BlueHamv2_78: 1078769333
+      BlueHamv2_79: -1658401336
+      BlueHamv2_8: 1512128699
+      BlueHamv2_80: -1282130162
+      BlueHamv2_81: 843176050
+      BlueHamv2_82: 1883198794
+      BlueHamv2_83: -1293609409
+      BlueHamv2_84: -1723297415
+      BlueHamv2_85: -1942637923
+      BlueHamv2_9: -368683760
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
