@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: b26e0d9e3194ce640b8ea00dfc8d4f05
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 243
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb285e386f604548a601eb6f1cf90d4
+      internalID: 1628795403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 243
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a913c6abffdc804a9122534a3eaaa33
+      internalID: -1856188847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 243
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314f99962168d354492c5ccbc1dcdf3c
+      internalID: -2029728211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 221
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a4cfba27dddee4f805e45bc88655fd
+      internalID: 65698709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 221
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943ce9f4fe8bb3f4c9e428b65eb4b41e
+      internalID: -760519725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 221
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c770faba4ec0840a6872959a042dbd
+      internalID: -86427402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 199
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8dd6c9699b23c4c8586bf6401f4d23
+      internalID: 1714445585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 199
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74825c7e5bc81c140aa19bf3e49931b1
+      internalID: -1868296528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 199
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0f0d0d340853f4aaa23b7c10421b79
+      internalID: 831340315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_13
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 177
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8538e9ebe03f064f919b1807de0963e
+      internalID: 725621590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 177
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b977a9e0b28a9bd409c78c7ebe5ce550
+      internalID: -504327153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_15
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 177
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad30e731329636438faebe9b02bd2f5
+      internalID: -2108899288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_17
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 155
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71a9d962a3060a41a2e4f716e0b6b5c
+      internalID: 736175927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_18
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 155
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c18fc314045299449cdd2d5ca42d31b
+      internalID: -458491144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 155
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea4be87e2114bf43845c78fd047b8e4
+      internalID: 2072998314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 133
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9aaf2db3dc6274aa418aab6d5603f4
+      internalID: 1289096270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 133
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360d018dc51943842960e087253bbacb
+      internalID: 178056827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 133
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7885b6e0e45b01948b96211dad29cae6
+      internalID: -1588194737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_25
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 111
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b17a7362e70b84da33dd62263c8b33
+      internalID: -397753942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_26
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 111
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29880c1c6ba92064090da7d94619d283
+      internalID: 563365352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 111
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d2d7f9fd4be5c4ca00bcf376c5739c
+      internalID: 482694389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_28
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 111
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54a84fdd8042cf4ca7010fcc9e4a398
+      internalID: -1523858277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a861b60ccab7c57478c56397c0dbbf62
+      internalID: -85121903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_30
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 89
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7dd8ff91c72ba4fabd0062468463e1
+      internalID: 702236073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_31
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 89
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4840372f68cdae64989d3a888594c0db
+      internalID: -804884993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_32
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 89
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693248da39983694e8fa241b49548753
+      internalID: 1242402415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_33
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 89
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614358e2f097c10408de1596aa546b67
+      internalID: -472960237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_34
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 89
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbb1763bc36708448db2996b821151a
+      internalID: -1155069572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_35
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 89
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324b67d11b770cd45a709022ee233411
+      internalID: -1811934607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_36
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 89
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e382d15e639584ba7e9f21d7b305ec
+      internalID: -1550548513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_38
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 67
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7e4ad5d74538042be695f859c91a2c
+      internalID: -850108256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 67
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f457fc343c292f144a0098405faaf832
+      internalID: 2023187297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_40
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 67
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9234e36e2919c72448bb0958ddb60a17
+      internalID: -398703986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_41
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 67
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9503560cfd38d144693956ab164ec615
+      internalID: 2122450133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_42
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 67
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5e4aeaf98720442868e925d07f7c21
+      internalID: -884393007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_43
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 67
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb2928928553ad42a265011a045b0bf
+      internalID: -245420527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_44
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 67
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07d0b89292ced1489943f21ccd55b27
+      internalID: -1605522569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_46
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb119c5b838644d49b8a9e6f88571a7e
+      internalID: -488961039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_47
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b0cbad4a7af2047bd9e43d4a26e846
+      internalID: 1879852767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_48
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fdb68b8d7da8c41b9be960ff24abeb
+      internalID: 1728706838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_49
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c783a1874871274ead5d3035c56a181
+      internalID: 1429663825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_50
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8842e39401677ec4499e560e359c5e11
+      internalID: 1773928143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_51
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8665f3f6beaa54aa9827950bb87c6d
+      internalID: -1333302959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_52
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001900ea53669f04d9ac63571d2c52a1
+      internalID: 791391085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 23
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fb24f353ef20d4dbc9cdedfc175233
+      internalID: 2042100288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_54
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 23
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1f3010e8b7e2943acab7679f0b8747
+      internalID: -593644256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_55
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 23
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1811e309e6dbc9e45ad66c0a01c1008b
+      internalID: -1427874646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_56
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 23
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938a426c244fa344fb41ab4e8d2ebe8e
+      internalID: -903769812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_57
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 23
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8799c49c850bf84c98a37362902b761
+      internalID: 69551563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_58
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 23
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a691e3361d8bf540b478ad2964a69a0
+      internalID: -1656945514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_59
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 23
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b6c5730895e37479e85ecc5142c819
+      internalID: -534278197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_60
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 23
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ad543e799fad944b6fcadc7a7e0d3f
+      internalID: 661463721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_61
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb39b93195a6c043b073586616e6856
+      internalID: -1264364054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_62
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e782055c5b6f55241806e3600860663d
+      internalID: -861823810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_63
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06a18a78d2a41746bd1003d9186c15e
+      internalID: 1817252118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_64
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cfb3b46c099224b9c694a5d202e2e9
+      internalID: 908372128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_65
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3106c51038c5fdd4fa40a3c012542ebc
+      internalID: 79283438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_66
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e87a36aa25d52b479f2dcd87cd18418
+      internalID: 1763594062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_67
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5325e73c373ec6d42863116d9543f9b6
+      internalID: 669738401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHamv2Mirrored_68
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d971f89684d70b5459400faf00513f48
+      internalID: 1937238600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BlueHamv2Mirrored_0: 2036021052
+      BlueHamv2Mirrored_1: 1628795403
+      BlueHamv2Mirrored_10: -1868296528
+      BlueHamv2Mirrored_11: 831340315
+      BlueHamv2Mirrored_12: 480779026
+      BlueHamv2Mirrored_13: 725621590
+      BlueHamv2Mirrored_14: -504327153
+      BlueHamv2Mirrored_15: -2108899288
+      BlueHamv2Mirrored_16: -433879957
+      BlueHamv2Mirrored_17: 736175927
+      BlueHamv2Mirrored_18: -458491144
+      BlueHamv2Mirrored_19: 2072998314
+      BlueHamv2Mirrored_2: -1856188847
+      BlueHamv2Mirrored_20: -1352944528
+      BlueHamv2Mirrored_21: 1289096270
+      BlueHamv2Mirrored_22: 178056827
+      BlueHamv2Mirrored_23: -1588194737
+      BlueHamv2Mirrored_24: -1460903892
+      BlueHamv2Mirrored_25: -397753942
+      BlueHamv2Mirrored_26: 563365352
+      BlueHamv2Mirrored_27: 482694389
+      BlueHamv2Mirrored_28: -1523858277
+      BlueHamv2Mirrored_29: -85121903
+      BlueHamv2Mirrored_3: -2029728211
+      BlueHamv2Mirrored_30: 702236073
+      BlueHamv2Mirrored_31: -804884993
+      BlueHamv2Mirrored_32: 1242402415
+      BlueHamv2Mirrored_33: -472960237
+      BlueHamv2Mirrored_34: -1155069572
+      BlueHamv2Mirrored_35: -1811934607
+      BlueHamv2Mirrored_36: -1550548513
+      BlueHamv2Mirrored_37: 1608038347
+      BlueHamv2Mirrored_38: -850108256
+      BlueHamv2Mirrored_39: 2023187297
+      BlueHamv2Mirrored_4: 622415984
+      BlueHamv2Mirrored_40: -398703986
+      BlueHamv2Mirrored_41: 2122450133
+      BlueHamv2Mirrored_42: -884393007
+      BlueHamv2Mirrored_43: -245420527
+      BlueHamv2Mirrored_44: -1605522569
+      BlueHamv2Mirrored_45: 1540613606
+      BlueHamv2Mirrored_46: -488961039
+      BlueHamv2Mirrored_47: 1879852767
+      BlueHamv2Mirrored_48: 1728706838
+      BlueHamv2Mirrored_49: 1429663825
+      BlueHamv2Mirrored_5: 65698709
+      BlueHamv2Mirrored_50: 1773928143
+      BlueHamv2Mirrored_51: -1333302959
+      BlueHamv2Mirrored_52: 791391085
+      BlueHamv2Mirrored_53: 2042100288
+      BlueHamv2Mirrored_54: -593644256
+      BlueHamv2Mirrored_55: -1427874646
+      BlueHamv2Mirrored_56: -903769812
+      BlueHamv2Mirrored_57: 69551563
+      BlueHamv2Mirrored_58: -1656945514
+      BlueHamv2Mirrored_59: -534278197
+      BlueHamv2Mirrored_6: -760519725
+      BlueHamv2Mirrored_60: 661463721
+      BlueHamv2Mirrored_61: -1264364054
+      BlueHamv2Mirrored_62: -861823810
+      BlueHamv2Mirrored_63: 1817252118
+      BlueHamv2Mirrored_64: 908372128
+      BlueHamv2Mirrored_65: 79283438
+      BlueHamv2Mirrored_66: 1763594062
+      BlueHamv2Mirrored_67: 669738401
+      BlueHamv2Mirrored_68: 1937238600
+      BlueHamv2Mirrored_7: -86427402
+      BlueHamv2Mirrored_8: -1101195154
+      BlueHamv2Mirrored_9: 1714445585
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
