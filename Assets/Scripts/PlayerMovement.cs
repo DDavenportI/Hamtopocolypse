@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
     // Tank
     public Rigidbody2D rb2d;
-    public SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer for flashing
+    public Image spriteRenderer; // Reference to the SpriteRenderer for flashing
+    public Animator animator;
     public float maxSpeed = 10; // Maximum speed of tank
     public float rotationSpeed = 200; // Turning speed of tank
     public float accelerationRate = 3f; // Rate at which the tank accelerates
