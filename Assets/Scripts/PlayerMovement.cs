@@ -85,7 +85,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
             // Apply recoil
-            if (((recoilDuration * recoilRate) < maxSpeed) || ((recoilDuration * recoilRate) < maxSpeed))
+            if (((recoilDuration * recoilRate) < maxSpeed * 0.5) || ((recoilDuration * recoilRate) > -maxSpeed * 0.5))
             {
                 recoilDuration += Time.deltaTime; // Increment the recoil duration
             }
@@ -108,8 +108,6 @@ public class PlayerMovement : MonoBehaviour
             Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
             if (bulletRb != null)
             {
-                bulletRb.MoveRotation(rb2d.rotation);
-                Debug.Log(bulletRb.rotation);
                 bulletRb.velocity = transform.up * bulletSpeed;
             }
         }
@@ -121,12 +119,9 @@ public class PlayerMovement : MonoBehaviour
         {
             TakeDamage();
         }
-        // else if (collision.gameObject.CompareTag("PoopMine") && !isInvincible)
-        // {
-        //     TakeDamage();
-        // }
         else if (collision.gameObject.CompareTag("Barrier"))
         {
+            if (recoilDuration > 0) recoilDuration = 0;
             //Vector2 currentVel = rb2d.velocity;
             //Vector2 surfaceNormal = collision.contacts[0].normal;
             //currentSpeed = 0;
