@@ -121,6 +121,10 @@ public class PlayerMovement : MonoBehaviour
         {
             TakeDamage();
         }
+        // else if (collision.gameObject.CompareTag("PoopMine") && !isInvincible)
+        // {
+        //     TakeDamage();
+        // }
         else if (collision.gameObject.CompareTag("Barrier"))
         {
             //Vector2 currentVel = rb2d.velocity;
@@ -155,7 +159,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void TakeDamage()
+    public void TakeDamage()
     {
         hitPoints--; // Decrement hit points
 
