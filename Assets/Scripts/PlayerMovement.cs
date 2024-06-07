@@ -1,15 +1,11 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
     // Tank
     private Rigidbody2D rb2d;
     public SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer for flashing
-    //public RectTransform rectTransform;
     public Animator animator; // Reference to the Animator component
     public float maxSpeed = 3; // Maximum speed of tank
     public float rotationSpeed = 200; // Turning speed of tank
@@ -56,11 +52,10 @@ public class PlayerMovement : MonoBehaviour
         // Determine the animation state (30-degree segments)
         int animationState = Mathf.FloorToInt(rotationAngle / 30);
 
-        Debug.Log(animationState);
+        //Debug.Log(animationState);
 
         // Update the animator parameters
         animator.SetFloat("Rotation", animationState);
-        //animator.SetBool("IsMoving", currentSpeed != 0);
 
         if (currentSpeed != 0) animator.speed = 1;
         else animator.speed = 0;
