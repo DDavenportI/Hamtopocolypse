@@ -7,10 +7,11 @@ using UnityEngine.UI;
 public class PlayerMovement : MonoBehaviour
 {
     // Tank
-    public Rigidbody2D rb2d;
-    public Image spriteRenderer; // Reference to the SpriteRenderer for flashing
-    public Animator animator;
-    public float maxSpeed = 10; // Maximum speed of tank
+    private Rigidbody2D rb2d;
+    public SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer for flashing
+    //public RectTransform rectTransform;
+    public Animator animator; // Reference to the Animator component
+    public float maxSpeed = 3; // Maximum speed of tank
     public float rotationSpeed = 200; // Turning speed of tank
     public float accelerationRate = 3f; // Rate at which the tank accelerates
     public float decelerationRate = 5f; // Rate at which the tank decelerates when no input is given
@@ -39,7 +40,30 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
-        rb2d = GetComponent<Rigidbody2D>();
+        rb2d = GetComponentInParent<Rigidbody2D>();
+    }
+
+    private void Update()
+    {
+        UpdateAnimation();
+    }
+
+    private void UpdateAnimation()
+    {
+        // Calculate the rotation angle in degrees
+        float rotationAngle = transform.eulerAngles.z;
+
+        // Determine the animation state (30-degree segments)
+        int animationState = Mathf.FloorToInt(rotationAngle / 30);
+
+        Debug.Log(animationState);
+
+        // Update the animator parameters
+        animator.SetFloat("Rotation", animationState);
+        //animator.SetBool("IsMoving", currentSpeed != 0);
+
+        if (currentSpeed != 0) animator.speed = 1;
+        else animator.speed = 0;
     }
 
     private void FixedUpdate()
