@@ -34,6 +34,9 @@ public class PlayerMovement : MonoBehaviour
     public string verticalAxis;
     public string fireButton;
 
+    // Minimum speed threshold for animator
+    public float minSpeedThreshold = 0.1f;
+
     private void Awake()
     {
         rb2d = GetComponentInParent<Rigidbody2D>();
@@ -42,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         UpdateAnimation();
+        //Debug.Log(currentSpeed);
     }
 
     private void UpdateAnimation()
@@ -52,13 +56,18 @@ public class PlayerMovement : MonoBehaviour
         // Determine the animation state (30-degree segments)
         int animationState = Mathf.RoundToInt(rotationAngle / 30);
 
-        //Debug.Log(animationState);
+        // Apply minimum speed threshold
+        float displayedSpeed = Mathf.Abs(currentSpeed) > minSpeedThreshold ? currentSpeed : 0;
 
         // Update the animator parameters
         animator.SetFloat("Rotation", animationState);
+        animator.SetFloat("Speed", displayedSpeed);
 
-        if (currentSpeed != 0) animator.speed = 1;
-        else animator.speed = 0;
+        // Set animator speed based on movement
+        animator.speed = displayedSpeed != 0 ? 1 : 0;
+
+        // Debugging
+        Debug.Log($"Animation State: {animationState}, Speed: {displayedSpeed}");
     }
 
     private void FixedUpdate()
