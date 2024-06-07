@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
         float rotationAngle = transform.eulerAngles.z;
 
         // Determine the animation state (30-degree segments)
-        int animationState = Mathf.FloorToInt(rotationAngle / 30);
+        int animationState = Mathf.RoundToInt(rotationAngle / 30);
 
         //Debug.Log(animationState);
 
