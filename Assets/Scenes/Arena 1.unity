@@ -1640,8 +1640,8 @@ MonoBehaviour:
   flashInterval: 0.1
   blueHamPm: {fileID: 971995622}
   pinkHamPm: {fileID: 1002710230}
-  blueFont: {r: 0.105882354, g: 0.4627451, b: 0.8980392, a: 1}
-  pinkFont: {r: 0.92941177, g: 0.27450982, b: 0.5058824, a: 1}
+  blueFontColor: {r: 0.23137257, g: 0.6313726, b: 0.89019614, a: 1}
+  pinkFontColor: {r: 0.9294118, g: 0.3019608, b: 0.56078434, a: 1}
 --- !u!114 &464498156
 MonoBehaviour:
   m_ObjectHideFlags: 0
