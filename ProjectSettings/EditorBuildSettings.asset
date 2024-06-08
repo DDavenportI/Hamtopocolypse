@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/ConveyerBeltTest.unity
+    guid: cba067e66caf945d98e6cae49953f216
+  - enabled: 1
+    path: Assets/Scenes/Arena 1.unity
+    guid: 156ae0978eda8456aac7779b1b36416e
+  - enabled: 1
+    path: Assets/Scenes/Win Screen.unity
+    guid: 1586c70fa48324ac782323b430a9e9cd
   m_configObjects: {}
