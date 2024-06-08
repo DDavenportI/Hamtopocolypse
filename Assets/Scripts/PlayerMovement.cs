@@ -5,47 +5,58 @@ public class PlayerMovement : MonoBehaviour
 {
     // Tank
     private Rigidbody2D rb2d;
-    public SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer for flashing
-    public Animator animator; // Reference to the Animator component
-    public float maxSpeed = 3; // Maximum speed of tank
-    public float rotationSpeed = 200; // Turning speed of tank
-    public float accelerationRate = 3f; // Rate at which the tank accelerates
-    public float decelerationRate = 5f; // Rate at which the tank decelerates when no input is given
-    private float currentSpeed = 0f; // Current speed of the tank
-    public int hitPoints = 3; // Number of hit points for the tank
-    public float invincibilityDuration = 1f; // Duration of invincibility in seconds
-    public float flashInterval = 0.1f; // Interval for flashing during invincibility
+    private CapsuleCollider2D ball;
+    [SerializeField] private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer for flashing
+    [SerializeField] private Animator animator; // Reference to the Animator component
+    [SerializeField] private float maxSpeed = 3; // Maximum speed of tank
+    [SerializeField] private float rotationSpeed = 200; // Turning speed of tank
+    [SerializeField] private float accelerationRate = 3f; // Rate at which the tank accelerates
+    [SerializeField] private float decelerationRate = 5f; // Rate at which the tank decelerates when no input is given
+    [SerializeField] private float currentSpeed = 0f; // Current speed of the tank
+    [SerializeField] private int hitPoints = 3; // Number of hit points for the tank
+    [SerializeField] private float invincibilityDuration = 1f; // Duration of invincibility in seconds
+    [SerializeField] private float flashInterval = 0.1f; // Interval for flashing during invincibility
     private bool isInvincible = false; // Indicates if the tank is invincible
     private Coroutine invincibilityCoroutine; // Reference to the invincibility coroutine
     [SerializeField] private int bounceX;
     [SerializeField] private int bounceY;
 
     // Bullet
-    public GameObject bulletPrefab; // Reference to the bullet prefab
-    public Transform firePoint; // Point from which bullets are fired
-    public float bulletSpeed = 10f; // Speed of the bullet
-    public float firingRate = 0.5f; // Rate at which bullets can be fired
-    public float recoilRate = 2f; // Rate at which recoil is applied
+    [SerializeField] private GameObject bulletPrefab; // Reference to the bullet prefab
+    [SerializeField] private Transform firePoint; // Point from which bullets are fired
+    [SerializeField] private float bulletSpeed = 10f; // Speed of the bullet
+    [SerializeField] private float firingRate = 0.5f; // Rate at which bullets can be fired
+    [SerializeField] private float recoilRate = 2f; // Rate at which recoil is applied
     private float lastFireTime = 0f; // Time since last fire
     private float recoilDuration = 0f; // Duration of sustained firing
 
     // Input Controls
-    public string horizontalAxis;
-    public string verticalAxis;
-    public string fireButton;
+    [SerializeField] private string horizontalAxis;
+    [SerializeField] private string verticalAxis;
+    [SerializeField] private string fireButton;
 
     // Minimum speed threshold for animator
-    public float minSpeedThreshold = 0.1f;
+    [SerializeField] private float minSpeedThreshold = 0.1f;
+
+    // Conveyor Belt
+    [SerializeField] private LayerMask conveyorBeltLayer; // LayerMask to identify speed boost panels
+    private bool conveyorBeltContact;
+
+    // Barrier
+    private bool barrierContact;
+    private float collisionMoveAwayForce = -1f; // Force to move away slightly from the barrier
+    private Vector2 normal;
+
 
     private void Awake()
     {
         rb2d = GetComponentInParent<Rigidbody2D>();
+        ball = GetComponent<CapsuleCollider2D>();
     }
 
     private void Update()
     {
         UpdateAnimation();
-        //Debug.Log(currentSpeed);
     }
 
     private void UpdateAnimation()
@@ -67,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
         animator.speed = displayedSpeed != 0 ? 1 : 0;
 
         // Debugging
-        Debug.Log($"Animation State: {animationState}, Speed: {displayedSpeed}");
+        //Debug.Log($"Animation State: {animationState}, Speed: {displayedSpeed}");
     }
 
     private void FixedUpdate()
@@ -128,6 +139,9 @@ public class PlayerMovement : MonoBehaviour
             else if (recoilDuration < 0) recoilDuration = 0f;
             rb2d.AddForce(-transform.up * recoilDuration * recoilRate, ForceMode2D.Impulse);
         }
+
+        if (conveyorBeltContact) CheckForSpeedBoostPanel();
+        if (barrierContact) InvertVelocityOnCollision(normal);
     }
 
     private void FireBullet()
@@ -152,35 +166,87 @@ public class PlayerMovement : MonoBehaviour
         else if (collision.gameObject.CompareTag("Barrier"))
         {
             if (recoilDuration > 0) recoilDuration = 0;
-            //Vector2 currentVel = rb2d.velocity;
-            //Vector2 surfaceNormal = collision.contacts[0].normal;
-            //currentSpeed = 0;
-            //StartCoroutine(WaitForABit());
-            //rb2d.AddForce(new Vector2(-currentVel.x + bounceX, -currentVel.y + bounceY), ForceMode2D.Impulse);
-            //currentSpeed = -rb2d.velocity.magnitude;
-            //rb2d.velocity = Vector2.Reflect(currentVel, surfaceNormal);
-            //rb2d.MoveRotation(rb2d.rotation * rotationSpeed);
-            //Debug.Log(rb2d.velocity);
+            barrierContact = true;
+            normal = collision.contacts[0].normal; // Collision normal
+        }
+    }
 
-            Vector2 normal = collision.contacts[0].normal; // The normal vector of the collision
-            Vector2 incomingVelocity = rb2d.velocity; // The current velocity
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Barrier"))
+        {
+            barrierContact = false;
+            normal = Vector2.zero;
+        }
+    }
 
-            // Reflect the velocity based on the collision normal, applying energy loss
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("ConveyorBelt"))
+        {
+            conveyorBeltContact = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("ConveyorBelt"))
+        {
+            conveyorBeltContact = false;
+        }
+    }
+
+    private void CheckForSpeedBoostPanel()
+    {
+        // Define the size and position of the overlap box
+        Vector2 size = ball.size;
+        Vector2 position = rb2d.position;
+
+        // Check for collisions with speed boost panels
+        Collider2D hitCollider = Physics2D.OverlapBox(position, size, 0f, conveyorBeltLayer);
+        if (hitCollider != null)
+        {
+            ConveyorBelt boostPanel = hitCollider.GetComponent<ConveyorBelt>();
+            if (boostPanel != null)
+            {
+                ApplySpeedBoost(boostPanel);
+            }
+        }
+    }
+
+    private void ApplySpeedBoost(ConveyorBelt boostPanel)
+    {
+        Vector2 boostDirection = boostPanel.boostDirection;
+        float boostForce = boostPanel.boostForce;
+        rb2d.AddForce(boostDirection.normalized * boostForce, ForceMode2D.Impulse);
+    }
+
+    private void InvertVelocityOnCollision(Vector2 normal)
+    {
+        //Vector2 normal = collision.contacts[0].normal; // Collision normal
+        if (normal != Vector2.zero)
+        {
+            Vector2 moveAwayDirection = normal.normalized;
+
+            // Apply a small force to move the tank slightly away from the barrier
+            rb2d.AddForce(moveAwayDirection * collisionMoveAwayForce, ForceMode2D.Impulse);
+
+            /*
+            Vector2 incomingVelocity = rb2d.velocity; // Current velocity
+
+            if (currentSpeed != 0) currentSpeed = 0;
+
+            // Reflect the velocity using the collision normal, reducing speed by energy loss factor
             Vector2 reflectedVelocity = Vector2.Reflect(incomingVelocity, normal);
 
-            // Rotate the tank to face the direction of the new velocity
-            float angle = Mathf.Atan2(reflectedVelocity.y, reflectedVelocity.x) * Mathf.Rad2Deg;
-            rb2d.MoveRotation(90); // Offset by -90 degrees since the tank's forward is the "up" direction
-            
-            currentSpeed = 0;
-
-            StartCoroutine(WaitForABit());
-
             rb2d.velocity = reflectedVelocity; // Set the new velocity
+            */
 
-            // Rotate the tank to face the direction of the new velocity
-            //float angle = Mathf.Atan2(reflectedVelocity.y, reflectedVelocity.x) * Mathf.Rad2Deg;
-            //rb2d.MoveRotation(angle - 90); // Offset by -90 degrees since the tank's forward is the "up" direction
+            Vector2 currentVel = rb2d.velocity;
+            currentSpeed = 0;
+            StartCoroutine(WaitForABit());
+            rb2d.AddForce(new Vector2(-currentVel.x + bounceX, -currentVel.y + bounceY), ForceMode2D.Impulse);
+            rb2d.velocity = Vector2.Reflect(currentVel, normal);
         }
     }
 
