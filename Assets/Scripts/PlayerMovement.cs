@@ -8,12 +8,15 @@ public class PlayerMovement : MonoBehaviour
     private CapsuleCollider2D ball;
     [SerializeField] private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer for flashing
     [SerializeField] private Animator animator; // Reference to the Animator component
+    [SerializeField] private float minSpeedThreshold = 0.1f; // Minimum speed threshold for animator
     [SerializeField] private float maxSpeed = 3; // Maximum speed of tank
     [SerializeField] private float rotationSpeed = 200; // Turning speed of tank
     [SerializeField] private float accelerationRate = 3f; // Rate at which the tank accelerates
     [SerializeField] private float decelerationRate = 5f; // Rate at which the tank decelerates when no input is given
     [SerializeField] private float currentSpeed = 0f; // Current speed of the tank
     public int hitPoints = 3; // Number of hit points for the tank
+    [SerializeField] private GameObject hitpointsDisplay; // Parent GameObject holding the hitpoint sprites
+    private SpriteRenderer[] hitpointRenderers; // Array of SpriteRenderer components representing hitpoints
     [SerializeField] private float invincibilityDuration = 1f; // Duration of invincibility in seconds
     [SerializeField] private float flashInterval = 0.1f; // Interval for flashing during invincibility
     private bool isInvincible = false; // Indicates if the tank is invincible
@@ -35,9 +38,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private string verticalAxis;
     [SerializeField] private string fireButton;
 
-    // Minimum speed threshold for animator
-    [SerializeField] private float minSpeedThreshold = 0.1f;
-
     // Conveyor Belt
     [SerializeField] private LayerMask conveyorBeltLayer; // LayerMask to identify speed boost panels
     private bool conveyorBeltContact;
@@ -52,6 +52,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb2d = GetComponentInParent<Rigidbody2D>();
         ball = GetComponent<CapsuleCollider2D>();
+        hitpointRenderers = hitpointsDisplay.GetComponentsInChildren<SpriteRenderer>();
+        UpdateHitpointDisplay();
     }
 
     private void Update()
@@ -253,6 +255,7 @@ public class PlayerMovement : MonoBehaviour
     public void TakeDamage()
     {
         hitPoints--; // Decrement hit points
+        UpdateHitpointDisplay();
 
         if (hitPoints <= 0)
         {
@@ -261,6 +264,21 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             StartInvincibility(); // Trigger invincibility frames
+        }
+    }
+
+    private void UpdateHitpointDisplay()
+    {
+        for (int i = 0; i < hitpointRenderers.Length; i++)
+        {
+            if (i < hitPoints)
+            {
+                hitpointRenderers[i].enabled = true;
+            }
+            else
+            {
+                hitpointRenderers[i].enabled = false;
+            }
         }
     }
 
