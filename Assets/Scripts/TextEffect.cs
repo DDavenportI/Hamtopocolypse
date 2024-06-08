@@ -15,8 +15,8 @@ public class TextEffect : MonoBehaviour
 
     [SerializeField] private PlayerMovement blueHamPm;
     [SerializeField] private PlayerMovement pinkHamPm;
-    [SerializeField] private Color blueFont;
-    [SerializeField] private Color pinkFont;
+    [SerializeField] private Color blueFontColor;
+    [SerializeField] private Color pinkFontColor;
 
     private void Start()
     {
@@ -26,38 +26,19 @@ public class TextEffect : MonoBehaviour
 
     void Update()
     {
-        /*
-        if (blueHamPm.hitPoints == 0 && alive)
-        {
-            SceneManager.LoadScene("Win Screen", LoadSceneMode.Single);
-            SceneManager.MoveGameObjectToScene(gameObject, SceneManager.GetSceneByName("Win Screen"));
-            tmpTextParent.SetText("Pink Conquers the Cage!", true);
-            tmpTextChild.SetText("Pink Conquers the Cage!", true);
-            tmpTextParent.color = pinkFont;
-            StartCoroutine(IncreaseTextSize());
-        }
-        else if (pinkHamPm.hitPoints == 0 && alive)
-        {
-            SceneManager.LoadScene("Win Screen", LoadSceneMode.Single);
-            tmpTextParent.SetText("Blue Conquers the Cage!", true);
-            tmpTextChild.SetText("Blue Conquers the Cage!", true);
-            tmpTextParent.color = blueFont;
-            StartCoroutine(IncreaseTextSize());
-        }
-        */
         if ((blueHamPm.hitPoints == 0 || pinkHamPm.hitPoints == 0) && (alive))
         {
             if (blueHamPm.hitPoints == 0)
             {
                 tmpTextParent.SetText("Pink Conquers the Cage!", true);
                 tmpTextChild.SetText("Pink Conquers the Cage!", true);
-                tmpTextParent.color = pinkFont;
+                tmpTextParent.color = pinkFontColor;
             }
             else if (pinkHamPm.hitPoints == 0)
             {
                 tmpTextParent.SetText("Blue Conquers the Cage!", true);
                 tmpTextChild.SetText("Blue Conquers the Cage!", true);
-                tmpTextParent.color = blueFont;
+                tmpTextParent.color = blueFontColor;
             }
             StartCoroutine(LoadYourAsyncScene());
             StartCoroutine(IncreaseTextSize());
