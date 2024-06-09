@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PoopMineScript : MonoBehaviour
@@ -15,28 +13,33 @@ public class PoopMineScript : MonoBehaviour
     private bool poopTriggered = false;
     private bool collisionWithBlueHam = false;
     private bool collisionWithPinkHam = false;
+    private CountdownTimer countdown;
 
     // Start is called before the first frame update
     void Start()
     {
         blueHamPm = blueHamster.GetComponent<PlayerMovement>();
         pinkHamPm = pinkHamster.GetComponent<PlayerMovement>();
+        countdown = GameObject.Find("Countdown").GetComponent<CountdownTimer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (timer > timeUnhidden && !poopTriggered) {
-            spriteRenderer.enabled = false;
-        } else if (timer > timeToDetonate && poopTriggered) {
-            if (collisionWithBlueHam) {
-                blueHamPm.TakeDamage();
-            } else if (collisionWithPinkHam) {
-                pinkHamPm.TakeDamage();
-            } 
-            Destroy(gameObject);
-        } else {
-            timer += Time.deltaTime;
+        if (countdown.countdown == 0)
+        {
+            if (timer > timeUnhidden && !poopTriggered) {
+                spriteRenderer.enabled = false;
+            } else if (timer > timeToDetonate && poopTriggered) {
+                if (collisionWithBlueHam) {
+                    blueHamPm.TakeDamage();
+                } else if (collisionWithPinkHam) {
+                    pinkHamPm.TakeDamage();
+                }
+                Destroy(gameObject);
+            } else {
+                timer += Time.deltaTime;
+            }
         }
     }
 
