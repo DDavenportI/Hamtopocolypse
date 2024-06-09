@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class TextEffect : MonoBehaviour
 {
-    public TextMeshPro tmpTextParent; // Reference to the TextMeshProUGUI component
-    public TextMeshPro tmpTextChild; // Reference to the TextMeshProUGUI component
+    public TextMeshPro tmpTextParent; 
+    public TextMeshPro tmpTextChild; 
     public float maxFontSize = 60f; // Maximum font size
     public float sizeIncreaseDuration = 2f; // Duration for size increase
     public float flashDuration = 1f; // Duration for flashing

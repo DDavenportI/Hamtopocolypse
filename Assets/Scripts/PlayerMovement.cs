@@ -47,7 +47,6 @@ public class PlayerMovement : MonoBehaviour
     private float collisionMoveAwayForce = -1f; // Force to move away slightly from the barrier
     private Vector2 normal;
 
-
     private void Awake()
     {
         rb2d = GetComponentInParent<Rigidbody2D>();
@@ -232,17 +231,6 @@ public class PlayerMovement : MonoBehaviour
 
             // Apply a small force to move the tank slightly away from the barrier
             rb2d.AddForce(moveAwayDirection * collisionMoveAwayForce, ForceMode2D.Impulse);
-
-            /*
-            Vector2 incomingVelocity = rb2d.velocity; // Current velocity
-
-            if (currentSpeed != 0) currentSpeed = 0;
-
-            // Reflect the velocity using the collision normal, reducing speed by energy loss factor
-            Vector2 reflectedVelocity = Vector2.Reflect(incomingVelocity, normal);
-
-            rb2d.velocity = reflectedVelocity; // Set the new velocity
-            */
 
             Vector2 currentVel = rb2d.velocity;
             currentSpeed = 0;
