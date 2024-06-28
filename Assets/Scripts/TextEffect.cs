@@ -5,18 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class TextEffect : MonoBehaviour
 {
-    public TextMeshPro tmpTextParent; 
-    public TextMeshPro tmpTextChild; 
-    public float maxFontSize = 60f; // Maximum font size
-    public float sizeIncreaseDuration = 2f; // Duration for size increase
-    public float flashDuration = 1f; // Duration for flashing
-    public float flashInterval = 0.1f; // Interval between flashes
+    [SerializeField] private TextMeshPro tmpTextParent;
+    [SerializeField] private TextMeshPro tmpTextChild;
+    [SerializeField] private float maxFontSize = 60f; // Maximum font size
+    [SerializeField] private float sizeIncreaseDuration = 2f; // Duration for size increase
+    [SerializeField] private float flashDuration = 1f; // Duration for flashing
+    [SerializeField] private float flashInterval = 0.1f; // Interval between flashes
     private bool alive = true;
 
     [SerializeField] private PlayerMovement blueHamPm;
     [SerializeField] private PlayerMovement pinkHamPm;
     [SerializeField] private Color blueFontColor;
     [SerializeField] private Color pinkFontColor;
+
+    private int previousScene;
+    private GameObject retryButton;
 
     private void Start()
     {
@@ -40,7 +43,7 @@ public class TextEffect : MonoBehaviour
                 tmpTextChild.SetText("Blue Conquers the Cage!", true);
                 tmpTextParent.color = blueFontColor;
             }
-            StartCoroutine(LoadYourAsyncScene());
+            StartCoroutine(LoadWinScreen());
             StartCoroutine(IncreaseTextSize());
         }
     }
@@ -85,9 +88,12 @@ public class TextEffect : MonoBehaviour
         // Ensure the text is displayed at the end
         tmpTextParent.enabled = true;
         tmpTextChild.enabled = true;
+
+        // Start the coroutine to display the retry button after flashing text
+        StartCoroutine(DisplayRetryButton(retryButton));
     }
 
-    IEnumerator LoadYourAsyncScene()
+    IEnumerator LoadWinScreen()
     {
         // Set the current Scene to be able to unload it later
         Scene currentScene = SceneManager.GetActiveScene();
@@ -103,7 +109,32 @@ public class TextEffect : MonoBehaviour
 
         // Move the GameObject (you attach this in the Inspector) to the newly loaded Scene
         SceneManager.MoveGameObjectToScene(gameObject, SceneManager.GetSceneByName("Win Screen"));
+
+        // Find the RetryButton in the newly loaded scene
+        retryButton = GameObject.Find("RetryButton");
+        if (retryButton != null)
+        {
+            retryButton.SetActive(false); // Ensure it starts inactive
+        }
+
         // Unload the previous Scene
+        previousScene = currentScene.buildIndex;
         SceneManager.UnloadSceneAsync(currentScene);
+    }
+
+    IEnumerator DisplayRetryButton(GameObject retryButton)
+    {
+        // Wait for the flash duration to ensure the flash effect is finished
+        yield return new WaitForSeconds(flashDuration);
+
+        if (retryButton != null)
+        {
+            retryButton.SetActive(true);
+        }
+    }
+
+    public void LoadPreviousScene()
+    {
+        SceneManager.LoadSceneAsync(previousScene, LoadSceneMode.Single);
     }
 }
