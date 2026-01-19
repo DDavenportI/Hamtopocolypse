@@ -538,6 +538,10 @@ PrefabInstance:
       value: PoopMine (7)
       objectReference: {fileID: 0}
     - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
+      propertyPath: countdown
+      value: 
+      objectReference: {fileID: 698425563}
+    - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
       propertyPath: blueHamster
       value: 
       objectReference: {fileID: 971995620}
@@ -1473,6 +1477,10 @@ PrefabInstance:
       value: PoopMine (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
+      propertyPath: countdown
+      value: 
+      objectReference: {fileID: 698425563}
+    - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
       propertyPath: blueHamster
       value: 
       objectReference: {fileID: 971995620}
@@ -2380,6 +2388,10 @@ PrefabInstance:
       value: PoopMine (3)
       objectReference: {fileID: 0}
     - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
+      propertyPath: countdown
+      value: 
+      objectReference: {fileID: 698425563}
+    - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
       propertyPath: blueHamster
       value: 
       objectReference: {fileID: 971995620}
@@ -2697,6 +2709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PoopMine (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
+      propertyPath: countdown
+      value: 
+      objectReference: {fileID: 698425563}
     - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
       propertyPath: blueHamster
       value: 
@@ -3128,6 +3144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 939252120}
   backgroundMusic: {fileID: 8300000, guid: 24cbc062787bbd64d812f0ad6f86716b, type: 3}
+  countdown: {fileID: 698425563}
 --- !u!4 &939252122
 Transform:
   m_ObjectHideFlags: 0
@@ -4186,6 +4203,10 @@ PrefabInstance:
       value: PoopMine (6)
       objectReference: {fileID: 0}
     - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
+      propertyPath: countdown
+      value: 
+      objectReference: {fileID: 698425563}
+    - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
       propertyPath: blueHamster
       value: 
       objectReference: {fileID: 971995620}
@@ -4250,6 +4271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PoopMine (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
+      propertyPath: countdown
+      value: 
+      objectReference: {fileID: 698425563}
     - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
       propertyPath: blueHamster
       value: 
@@ -4451,6 +4476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PoopMine (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
+      propertyPath: countdown
+      value: 
+      objectReference: {fileID: 698425563}
     - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
       propertyPath: blueHamster
       value: 
@@ -4868,6 +4897,10 @@ PrefabInstance:
       value: PoopMine (8)
       objectReference: {fileID: 0}
     - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
+      propertyPath: countdown
+      value: 
+      objectReference: {fileID: 698425563}
+    - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
       propertyPath: blueHamster
       value: 
       objectReference: {fileID: 971995620}
@@ -5234,6 +5267,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PoopMine (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
+      propertyPath: countdown
+      value: 
+      objectReference: {fileID: 698425563}
     - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
       propertyPath: blueHamster
       value: 
@@ -5985,6 +6022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PoopMine
       objectReference: {fileID: 0}
+    - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
+      propertyPath: countdown
+      value: 
+      objectReference: {fileID: 698425563}
     - target: {fileID: 6010415091788184299, guid: f4760416b09ca4d30a87abd64fa487da, type: 3}
       propertyPath: blueHamster
       value: 

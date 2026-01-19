@@ -7,7 +7,7 @@ public class CountdownTimer : MonoBehaviour
     [SerializeField] private TextMeshPro countdownText;
     [SerializeField] private TextMeshPro countdownTextChild;
     public float countdown = 3f;
-    public float fadeOutDuration = 1f;
+    [SerializeField] private float fadeOutDuration = 1f;
     private GameObject[] hamsters;
 
     void Awake()

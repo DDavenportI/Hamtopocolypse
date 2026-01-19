@@ -4,11 +4,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // Tank
-    private Rigidbody2D rb2d;
-    private CapsuleCollider2D ball;
+    [Header("Tank")]
     [SerializeField] private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer for flashing
     [SerializeField] private Animator animator; // Reference to the Animator component
-    [SerializeField] private float minSpeedThreshold = 0.1f; // Minimum speed threshold for animator
+    private float minSpeedThreshold = 0.1f; // Minimum speed threshold for animator
     [SerializeField] private float maxSpeed = 3; // Maximum speed of tank
     [SerializeField] private float rotationSpeed = 200; // Turning speed of tank
     [SerializeField] private float accelerationRate = 3f; // Rate at which the tank accelerates
@@ -21,10 +20,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float flashInterval = 0.1f; // Interval for flashing during invincibility
     private bool isInvincible = false; // Indicates if the tank is invincible
     private Coroutine invincibilityCoroutine; // Reference to the invincibility coroutine
-    [SerializeField] private int bounceX;
-    [SerializeField] private int bounceY;
+    private Rigidbody2D rb2d;
+    private CapsuleCollider2D ball;
 
     // Bullet
+    [Header("Bullet")]
     [SerializeField] private GameObject bulletPrefab; // Reference to the bullet prefab
     [SerializeField] private Transform firePoint; // Point from which bullets are fired
     [SerializeField] private float bulletSpeed = 10f; // Speed of the bullet
@@ -34,11 +34,13 @@ public class PlayerMovement : MonoBehaviour
     private float recoilDuration = 0f; // Duration of sustained firing
 
     // Input Controls
+    [Header("Input Controls")]
     [SerializeField] private string horizontalAxis;
     [SerializeField] private string verticalAxis;
     [SerializeField] private string fireButton;
 
     // Conveyor Belt
+    //[Header("Convey")]
     [SerializeField] private LayerMask conveyorBeltLayer; // LayerMask to identify speed boost panels
     private bool conveyorBeltContact;
 
@@ -170,6 +172,10 @@ public class PlayerMovement : MonoBehaviour
             barrierContact = true;
             normal = collision.contacts[0].normal; // Collision normal
         }
+        else if (collision.gameObject.name == "Ball")
+        {
+            rb2d.AddForce(-transform.up * currentSpeed, ForceMode2D.Impulse);
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -224,7 +230,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void InvertVelocityOnCollision(Vector2 normal)
     {
-        //Vector2 normal = collision.contacts[0].normal; // Collision normal
         if (normal != Vector2.zero)
         {
             Vector2 moveAwayDirection = normal.normalized;
@@ -233,10 +238,11 @@ public class PlayerMovement : MonoBehaviour
             rb2d.AddForce(moveAwayDirection * collisionMoveAwayForce, ForceMode2D.Impulse);
 
             Vector2 currentVel = rb2d.velocity;
-            currentSpeed = 0;
-            StartCoroutine(WaitForABit());
-            rb2d.AddForce(new Vector2(-currentVel.x + bounceX, -currentVel.y + bounceY), ForceMode2D.Impulse);
-            rb2d.velocity = Vector2.Reflect(currentVel, normal);
+            //currentSpeed = 0;
+            currentSpeed *= .6f;
+            //StartCoroutine(WaitForABit());
+            Vector2 reflectVel = Vector2.Reflect(currentVel, normal.normalized);
+            rb2d.AddForce(reflectVel * 2, ForceMode2D.Impulse);
         }
     }
 

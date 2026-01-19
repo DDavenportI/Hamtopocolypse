@@ -2,25 +2,24 @@ using UnityEngine;
 
 public class PoopMineScript : MonoBehaviour
 {
-    public SpriteRenderer spriteRenderer;
-    public GameObject blueHamster;
-    public GameObject pinkHamster;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private GameObject blueHamster;
+    [SerializeField] private GameObject pinkHamster;
     private PlayerMovement blueHamPm;
-    private PlayerMovement pinkHamPm; 
-    public float timeUnhidden;
+    private PlayerMovement pinkHamPm;
+    [SerializeField] private float timeUnhidden;
     private float timer;
-    public float timeToDetonate;
+    [SerializeField] private float timeToDetonate;
     private bool poopTriggered = false;
     private bool collisionWithBlueHam = false;
     private bool collisionWithPinkHam = false;
-    private CountdownTimer countdown;
+    [SerializeField] private CountdownTimer countdown;
 
     // Start is called before the first frame update
     void Start()
     {
         blueHamPm = blueHamster.GetComponent<PlayerMovement>();
         pinkHamPm = pinkHamster.GetComponent<PlayerMovement>();
-        countdown = GameObject.Find("Countdown").GetComponent<CountdownTimer>();
     }
 
     // Update is called once per frame

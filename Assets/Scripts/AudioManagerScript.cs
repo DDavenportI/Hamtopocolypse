@@ -4,12 +4,7 @@ public class AudioManagerScript : MonoBehaviour
 {
     [SerializeField] AudioSource musicSource;
     public AudioClip backgroundMusic;
-    private CountdownTimer countdown;
-
-    void Start()
-    {
-        countdown = GameObject.Find("Countdown").GetComponent<CountdownTimer>();
-    }
+    [SerializeField] private CountdownTimer countdown;
 
     private void Update()
     {
